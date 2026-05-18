@@ -1,9 +1,9 @@
-from Body_Beeman import Beeman
-from Simulation_Class import Simulation
-from Direct_Euler_Case import Direct_Euler
-from Euler_Cromer_Case import EulerCromer
+from body_beeman import Beeman
+from simulation_class import Simulation
+from direct_euler import Direct_Euler
+from euler_cromer import EulerCromer
 import matplotlib.pyplot as plt
-from Animator import MultiAnimator
+from animator import MultiAnimator
 
 def main():
     """

@@ -1,4 +1,4 @@
-from Body_Beeman import Beeman
+from body_beeman import Beeman
 from numpy.linalg import norm
 
 class Direct_Euler (Beeman):

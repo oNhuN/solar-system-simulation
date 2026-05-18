@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
-from Simulation_Class import Simulation
-from Body_Beeman import Beeman
-from Animator import MultiAnimator
+from simulation_class import Simulation
+from body_beeman import Beeman
+from animator import MultiAnimator
 
 def main():
     """Execution file for the default simulation (Beeman Method)"""

@@ -1,5 +1,5 @@
-from Body_Beeman import Beeman
-from Simulation_Class import Simulation
+from body_beeman import Beeman
+from simulation_class import Simulation
 import matplotlib.pyplot as plt
 def main():
     """Execution file for the planetary alignment"""
