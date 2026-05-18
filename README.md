@@ -21,22 +21,24 @@ Python 3.14.3 is used, along with the following libraries:
 Dependencies may be installed via terminal using:
 ```bash
 pip install numpy matplotlib scipy
-
+```
 3. How to Run
 Outputs include orbital animations, energy plots, and detected alignments.
-
 A. Default Beeman Run
 The main simulation is executed with a dedicated energy stability plot:
+```bash
 python Beeman_execution.py
-
+```
 B. Physics Comparison
 Beeman, Euler-Cromer, and Direct Euler are run side-by-side to compare energy conservation and orbital animation:
+```bash
 python Comparison_execution.py
-
+```
 C. Primary Alignment Search
 The simulation runs for the full duration and identified alignments are plotted. A 1-year cooldown is implemented to prevent repeated captures of the same event, ensuring only distinct alignments are recorded:
+```bash
 python Alignment_execution.py
-
+```
 4. File Descriptions
 Core Logic
 Simulation_Class.py: The main engine used for simulation control, data loading, and alignment detection logic.
