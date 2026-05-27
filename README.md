@@ -91,9 +91,9 @@ python alignment_execution.py
 
 | File | Description |
 |---|---|
-| `Simulation_Class.py` | Main simulation engine and alignment detection logic |
-| `Body_Beeman.py` | Celestial body class and Beeman integrator |
-| `Animator.py` | Handles orbital animations and pause/resume controls |
+| `simulation_Class.py` | Main simulation engine and alignment detection logic |
+| `body_Beeman.py` | Celestial body class and Beeman integrator |
+| `animator.py` | Handles orbital animations and pause/resume controls |
 
 ---
 
