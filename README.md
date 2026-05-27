@@ -58,7 +58,7 @@ pip install numpy matplotlib scipy
 Runs the main simulation using the Beeman integrator and generates an energy stability plot.
 
 ```bash
-python Beeman_execution.py
+python beeman_execution.py
 ```
 
 ---
@@ -68,7 +68,7 @@ python Beeman_execution.py
 Runs Beeman, Euler-Cromer, and Direct Euler side-by-side to compare orbital behaviour and energy conservation.
 
 ```bash
-python Comparison_execution.py
+python comparison_execution.py
 ```
 
 ---
@@ -80,7 +80,7 @@ Runs the simulation and detects planetary alignment events.
 A 1-year cooldown is used to prevent repeated captures of the same alignment.
 
 ```bash
-python Alignment_execution.py
+python alignment_execution.py
 ```
 
 ---
